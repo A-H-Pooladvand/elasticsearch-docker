@@ -5,6 +5,8 @@ volumes:
 
 networks:
   elasticsearch:
+    name: elasticsearch
+    driver: bridge
 
 services:
   elasticsearch:
